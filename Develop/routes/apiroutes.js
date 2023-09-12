@@ -1,15 +1,22 @@
+const router = require('express').Router();
+const fs = require ('fs');
+
+
 //goes along with the fetch in index.js on line 29
-app.get('/api/notes', (req, res) =>
-res.sendFile//(path.join(__dirname, '/public/index.html'))
-);
-
-
+router.get('/api/notes', (req, res) =>{
+    fs.readFile("db/db.json", "utf-8", (err,data) => {
+        if(err) throw err
+        return res.json(JSON.parse(data))
+    })
+});
 
 //goes along with the fetch in index.js on line 37
 
-app.post
+//app.post
 
 
 //goes along with the fetch in index.js on line 46
 
-app.delete
+//app.delete
+
+module.exports = router;
