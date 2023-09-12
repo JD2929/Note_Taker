@@ -8,6 +8,13 @@ Once in the app simply click on the blue "get started" button and you will be ta
 
 ##Screenshots
 
+Notes being written screenshot.
+
+![Note Being Taken](https://github.com/JD2929/Note_Taker/assets/139637504/3208cb3a-123b-4d2e-b587-e52f0fb3efa7)
+
+Notes after it was saved. 
+
+![Notes after Saving](https://github.com/JD2929/Note_Taker/assets/139637504/3dbd85db-6ff7-472a-9760-f92767d018d3)
 
 ##Link to GitHub repo for this assignment
 
